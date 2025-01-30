@@ -1,0 +1,100 @@
+Serial No,Floor System Type,Usage,Boundary Condition,Longest Grid Length (m),Shortest Grid Length (m),Volume of Concrete (m³),Volume of Reinforcement (m³),Concrete Usage Index (CUI) (m³/m²),Reinforcement Usage Index (RUI) (kg/m²),Embodied Carbon Energy (GJ),Emissions CO2 GWP (kg CO2 eq./1000)
+251,Flat-slab,Residential,Internal Panel,3,3,1.575,0.014951468,0.525,39.123,6.54,0.69
+252,Flat-slab,Residential,Internal Panel,4,4,3.2,0.027892316,0.8,54.739,12.69,1.34
+253,Flat-slab,Residential,Internal Panel,5,5,5.625,0.081900064,1.125,128.583,30.05,3.03
+254,Flat-slab,Residential,Internal Panel,6,6,9,0.236167343,1.5,308.986,72.84,7
+255,Flat-slab,Residential,Internal Panel,7,7,13.475,0.366975781,1.925,411.537,112.21,10.75
+256,Flat-slab,Residential,Internal Panel,8,8,19.2,0.522958146,2.4,513.153,159.91,15.32
+257,Flat-slab,Residential,Internal Panel,9,9,26.325,0.737237549,2.925,643.035,224.01,21.42
+258,Flat-slab,Common space,Internal Panel,3,3,1.575,0.019201414,0.525,50.244,7.54,0.77
+259,Flat-slab,Common space,Internal Panel,4,4,3.2,0.053720732,0.8,105.427,18.78,1.87
+260,Flat-slab,Common space,Internal Panel,5,5,5.625,0.116979339,1.125,183.658,38.31,3.75
+261,Flat-slab,Common space,Internal Panel,6,6,9,0.307383478,1.5,402.16,89.61,8.45
+262,Flat-slab,Common space,Internal Panel,7,7,13.475,0.431682851,1.925,484.101,127.45,12.07
+263,Flat-slab,Common space,Internal Panel,8,8,19.2,0.688617594,2.4,675.706,198.92,18.7
+264,Flat-slab,Common space,Internal Panel,9,9,26.325,0.963304985,2.925,840.216,277.24,26.03
+265,Flat-slab,Office,Internal Panel,3,3,1.575,0.016813804,0.525,43.996,6.97,0.72
+266,Flat-slab,Office,Internal Panel,4,4,3.2,0.031518971,0.8,61.856,13.55,1.42
+267,Flat-slab,Office,Internal Panel,5,5,5.625,0.092913231,1.125,145.874,32.65,3.26
+268,Flat-slab,Office,Internal Panel,6,6,9,0.26258688,1.5,343.551,79.07,7.54
+269,Flat-slab,Office,Internal Panel,7,7,13.475,0.38257316,1.925,429.028,115.89,11.07
+270,Flat-slab,Office,Internal Panel,8,8,19.2,0.645684746,2.4,633.578,188.81,17.82
+271,Flat-slab,Office,Internal Panel,9,9,26.325,0.781173036,2.925,681.356,234.35,22.31
+272,Flat-slab,Residential,Edge Panel,3,3,1.575,0.01538972,0.525,40.27,6.64,0.7
+273,Flat-slab,Residential,Edge Panel,4,4,3.2,0.029060989,0.8,57.032,12.97,1.37
+274,Flat-slab,Residential,Edge Panel,5,5,5.625,0.083433161,1.125,130.99,30.41,3.06
+275,Flat-slab,Residential,Edge Panel,6,6,9,0.243099581,1.5,318.055,74.48,7.14
+276,Flat-slab,Residential,Edge Panel,7,7,13.475,0.374907674,1.925,420.432,114.08,10.91
+277,Flat-slab,Residential,Edge Panel,8,8,19.2,0.534475413,2.4,524.454,162.62,15.56
+278,Flat-slab,Residential,Edge Panel,9,9,26.325,0.753648443,2.925,657.349,227.87,21.75
+279,Flat-slab,Common space,Edge Panel,3,3,1.575,0.02120575,0.525,55.488,8.01,0.81
+280,Flat-slab,Common space,Edge Panel,4,4,3.2,0.058024714,0.8,113.874,19.79,1.96
+281,Flat-slab,Common space,Edge Panel,5,5,5.625,0.117939409,1.125,185.165,38.54,3.77
+282,Flat-slab,Common space,Edge Panel,6,6,9,0.328321565,1.5,429.554,94.55,8.88
+283,Flat-slab,Common space,Edge Panel,7,7,13.475,0.439458293,1.925,492.821,129.28,12.23
+284,Flat-slab,Common space,Edge Panel,8,8,19.2,0.705680212,2.4,692.449,202.94,19.05
+285,Flat-slab,Common space,Edge Panel,9,9,26.325,0.986277881,2.925,860.253,282.65,26.5
+286,Flat-slab,Office,Edge Panel,3,3,1.575,0.017222211,0.525,45.065,7.07,0.73
+287,Flat-slab,Office,Edge Panel,4,4,3.2,0.034252156,0.8,67.22,14.19,1.47
+288,Flat-slab,Office,Edge Panel,5,5,5.625,0.092762435,1.125,145.637,32.61,3.25
+289,Flat-slab,Office,Edge Panel,6,6,9,0.273601304,1.5,357.962,81.66,7.76
+290,Flat-slab,Office,Edge Panel,7,7,13.475,0.387187532,1.925,434.203,116.97,11.16
+291,Flat-slab,Office,Edge Panel,8,8,19.2,0.68719618,2.4,674.311,198.58,18.67
+292,Flat-slab,Office,Edge Panel,9,9,26.325,0.800866109,2.925,698.533,238.99,22.72
+293,Flat-slab,Residential,Corner Panel,3,3,1.575,0.015737494,0.525,41.18,6.72,0.7
+294,Flat-slab,Residential,Corner Panel,4,4,3.2,0.029788582,0.8,58.46,13.14,1.38
+295,Flat-slab,Residential,Corner Panel,5,5,5.625,0.086031258,1.125,135.069,31.03,3.12
+296,Flat-slab,Residential,Corner Panel,6,6,9,0.249216262,1.5,326.058,75.92,7.26
+297,Flat-slab,Residential,Corner Panel,7,7,13.475,0.377762754,1.925,423.634,114.75,10.97
+298,Flat-slab,Residential,Corner Panel,8,8,19.2,0.544365775,2.4,534.159,164.95,15.76
+299,Flat-slab,Residential,Corner Panel,9,9,26.325,0.766972723,2.925,668.971,231.01,22.02
+300,Flat-slab,Common space,Corner Panel,3,3,1.575,0.022097963,0.525,57.823,8.22,0.83
+301,Flat-slab,Common space,Corner Panel,4,4,3.2,0.059280094,0.8,116.337,20.09,1.98
+302,Flat-slab,Common space,Corner Panel,5,5,5.625,0.122961559,1.125,193.05,39.72,3.87
+303,Flat-slab,Common space,Corner Panel,6,6,9,0.330772007,1.5,432.76,95.12,8.93
+304,Flat-slab,Common space,Corner Panel,7,7,13.475,0.448809243,1.925,503.308,131.49,12.42
+305,Flat-slab,Common space,Corner Panel,8,8,19.2,0.721086582,2.4,707.566,206.56,19.36
+306,Flat-slab,Common space,Corner Panel,9,9,26.325,1.003242482,2.925,875.05,286.65,26.85
+307,Flat-slab,Office,Corner Panel,3,3,1.575,0.017859954,0.525,46.734,7.22,0.75
+308,Flat-slab,Office,Corner Panel,4,4,3.2,0.034674386,0.8,68.048,14.29,1.48
+309,Flat-slab,Office,Corner Panel,5,5,5.625,0.096357045,1.125,151.281,33.46,3.33
+310,Flat-slab,Office,Corner Panel,6,6,9,0.276014047,1.5,361.118,82.23,7.81
+311,Flat-slab,Office,Corner Panel,7,7,13.475,0.395218699,1.925,443.21,118.87,11.33
+312,Flat-slab,Office,Corner Panel,8,8,19.2,0.697786293,2.4,684.703,201.08,18.89
+313,Flat-slab,Office,Corner Panel,9,9,26.325,0.815534834,2.925,711.328,242.44,23.02
+314,Flat-slab,Residential,Internal Panel,8,5,12,0.232667279,2.4,365.288,77.76,7.65
+315,Flat-slab,Residential,Internal Panel,6,5,7.5,0.152746748,1.5,239.812,50.33,4.93
+316,Flat-slab,Residential,Internal Panel,9,4,11.7,0.33410775,2.925,655.686,101.08,9.65
+317,Flat-slab,Residential,Edge Panel,8,5,12,0.241841735,2.4,379.692,79.92,7.84
+318,Flat-slab,Residential,Edge Panel,6,5,7.5,0.155913473,1.5,244.784,51.07,5
+319,Flat-slab,Residential,Edge Panel,9,4,11.7,0.350393767,2.925,687.648,104.91,9.98
+320,Flat-slab,Residential,Corner Panel,8,5,12,0.246428401,2.4,386.893,81,7.93
+321,Flat-slab,Residential,Corner Panel,6,5,7.5,0.159673332,1.5,250.687,51.96,5.07
+322,Flat-slab,Residential,Corner Panel,9,4,11.7,0.35638981,2.925,699.415,106.32,10.11
+323,Flat-slab,Common space,Internal Panel,8,5,12,0.344919777,2.4,541.524,104.2,9.94
+324,Flat-slab,Common space,Internal Panel,6,5,7.5,0.210200195,1.5,330.014,63.86,6.11
+325,Flat-slab,Common space,Internal Panel,9,4,11.7,0.366013137,2.925,718.301,108.59,10.3
+326,Flat-slab,Common space,Edge Panel,8,5,12,0.358591988,2.4,562.989,107.42,10.22
+327,Flat-slab,Common space,Edge Panel,6,5,7.5,0.215829929,1.5,338.853,65.18,6.22
+328,Flat-slab,Common space,Edge Panel,9,4,11.7,0.386370657,2.925,758.252,113.38,10.72
+329,Flat-slab,Common space,Corner Panel,8,5,12,0.365751874,2.4,574.23,109.1,10.37
+330,Flat-slab,Common space,Corner Panel,6,5,7.5,0.220508388,1.5,346.198,66.28,6.32
+331,Flat-slab,Common space,Corner Panel,9,4,11.7,0.394051223,2.925,773.326,115.19,10.87
+332,Flat-slab,Office,Internal Panel,8,5,12,0.278650158,2.4,437.481,88.59,8.59
+333,Flat-slab,Office,Internal Panel,6,5,7.5,0.184011878,1.5,288.899,57.69,5.57
+334,Flat-slab,Office,Internal Panel,9,4,11.7,0.347555652,2.925,682.078,104.24,9.93
+335,Flat-slab,Office,Edge Panel,8,5,12,0.289587927,2.4,454.653,91.17,8.81
+336,Flat-slab,Office,Edge Panel,6,5,7.5,0.192305683,1.5,301.92,59.64,5.74
+337,Flat-slab,Office,Edge Panel,9,4,11.7,0.363841668,2.925,714.039,108.08,10.26
+338,Flat-slab,Office,Corner Panel,8,5,12,0.295655128,2.4,464.179,92.59,8.94
+339,Flat-slab,Office,Corner Panel,6,5,7.5,0.194592762,1.5,305.511,60.18,5.79
+340,Flat-slab,Office,Corner Panel,9,4,11.7,0.370979367,2.925,728.047,109.76,10.4
+341,Flat-slab,Residential,Internal Panel,7,3,5.775,0.114942236,1.925,300.766,38.12,3.74
+342,Flat-slab,Residential,Edge Panel,7,3,5.775,0.119692324,1.925,313.195,39.24,3.84
+343,Flat-slab,Residential,Corner Panel,7,3,5.775,0.1223077,1.925,320.038,39.86,3.89
+344,Flat-slab,Common space,Internal Panel,7,3,5.775,0.155391466,1.925,406.608,47.65,4.57
+345,Flat-slab,Common space,Edge Panel,7,3,5.775,0.162147147,1.925,424.285,49.24,4.71
+346,Flat-slab,Common space,Corner Panel,7,3,5.775,0.166989221,1.925,436.955,50.38,4.81
+347,Flat-slab,Office,Internal Panel,7,3,5.775,0.138583977,1.925,362.628,43.69,4.23
+348,Flat-slab,Office,Edge Panel,7,3,5.775,0.145339658,1.925,380.305,45.28,4.36
+349,Flat-slab,Office,Corner Panel,7,3,5.775,0.150657982,1.925,394.222,46.53,4.47

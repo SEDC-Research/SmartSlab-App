@@ -1,0 +1,166 @@
+Serial No,Floor System Type,Usage,Boundary Condition,Longest Grid Length (m),Shortest Grid Length (m),Volume of Concrete (m³),Volume of Reinforcement (m³),Concrete Usage Index (CUI) (m³/m²),Reinforcement Usage Index (RUI) (kg/m²),Embodied Carbon Energy (GJ),Emissions CO2 GWP (kg CO2 eq./1000)
+101,Two-way,Office,Corner Panel,7.8,5.942,13.478535,0.193147994,0.291,32.714,71.28,7.2
+102,Two-way,Office,Edge Panel,7.8,5.942,11.636655,0.214565662,0.251,36.341,72.8,7.2
+103,Two-way,Office,Edge Panel,8,6.636,13.52948375,0.204800066,0.255,30.283,74.13,7.45
+104,Two-way,Office,Edge Panel,8,6.636,13.26949625,0.208552823,0.25,30.838,74.51,7.47
+105,Two-way,Office,Corner Panel,5,6.5045,8.89956,0.112250821,0.274,27.094,43.47,4.44
+106,Two-way with Secondary beam,Residential,Internal Panel,4.8,3.54,3.156075,0.144163896,0.186,66.601,39.99,3.71
+107,Two-way,Residential,Internal Panel,5.287,3.54,3.058425,0.140109975,0.163,58.766,38.85,3.6
+108,Two-way with Secondary beam,Residential,Edge Panel,4.8,3.54,2.9768625,0.14361753,0.175,66.349,39.52,3.65
+109,Two-way with Secondary beam,Residential,Internal Panel,4.6,3.54,2.52343125,0.137491686,0.155,66.28,37.21,3.42
+110,Two-way,Office,Corner Panel,3.5835,2.1855,1.755779438,0.020444056,0.224,20.492,8.18,0.84
+111,Two-way,Office,Edge Panel,6.5385,3.5625,4.088805625,0.053419777,0.176,18.003,20.41,2.08
+112,Two-way,Office,Edge Panel,6.5445,3.4315,3.678202813,0.046003021,0.164,16.08,17.87,1.83
+113,One-way,Office,Corner Panel,10.078,3.765,7.36190625,0.086473515,0.194,17.89,34.46,3.55
+114,Two-way,Residential,Corner Panel,6.015,3.8,4.860601875,0.062068623,0.213,21.317,23.92,2.44
+115,One-way,Residential,Internal Panel,3.8,1.78,1.3259475,0.018641771,0.196,21.635,6.93,0.7
+116,Two-way,Residential,Internal Panel,1.8,1.78,0.7260975,0.009797701,0.227,24.005,3.7,0.38
+117,Two-way,Residential,Corner Panel,2.5,2.402,1.7604975,0.022235953,0.293,29.068,8.61,0.88
+118,Two-way,Residential,Edge Panel,6.06,3.8,4.58805375,0.059586762,0.199,20.312,22.81,2.33
+119,Two-way with Secondary beam,Residential,Edge Panel,6.06,2.5,3.077836875,0.040621119,0.203,21.048,15.46,1.57
+120,Two-way,Residential,Edge Panel,2.8,1.78,1.196235,0.01704317,0.24,26.844,6.3,0.64
+121,Two-way,Residential,Corner Panel,2.8,2.535,1.72731375,0.023206194,0.243,25.665,8.77,0.89
+122,Two-way with Secondary beam,Office,Corner Panel,6.8,6,7.7895,0.094763542,0.191,18.233,37.23,3.82
+123,Two-way,Office,Edge Panel,6,4.1,4.897125,0.053912055,0.199,17.204,22.07,2.29
+124,Two-way,Office,Edge Panel,6,3,3.645,0.045938396,0.203,20.034,17.8,1.82
+125,Two-way,Office,Internal Panel,6,3,3.493125,0.042234538,0.194,18.419,16.63,1.71
+126,Two-way,Office,Internal Panel,6,5.2,6.511725,0.067648614,0.209,17.021,28.39,2.96
+127,Two-way,Office,Internal Panel,6,5.2,6.511725,0.065752105,0.209,16.543,27.95,2.92
+128,Two-way with Secondary beam,Office,Internal Panel,6.8,6,7.89975,0.111672754,0.194,21.486,41.42,4.19
+129,Two-way with Secondary beam,Office,Internal Panel,6.8,6,8.0355,0.11456104,0.197,22.042,42.36,4.28
+130,Two-way with Secondary beam,Office,Internal Panel,6,5.2,6.057,0.078628848,0.194,19.783,30.11,3.07
+131,Two-way with Secondary beam,Office,Edge Panel,5.2,4.9,4.758,0.082765608,0.187,25.499,28.6,2.84
+132,Two-way,Office,Edge Panel,5.2,4.9,5.73034375,0.063564045,0.225,19.583,25.94,2.68
+133,Two-way,Office,Edge Panel,6.8,4.9,7.57540625,0.096782691,0.227,22.801,37.29,3.81
+134,Two-way,Office,Internal Panel,6.8,4.4,6.55675,0.088177444,0.219,23.135,33.32,3.39
+135,Two-way,Office,Edge Panel,3.66,2.2,2.299275,0.033449361,0.286,32.61,12.28,1.24
+136,Two-way,Office,Corner Panel,6.8,6,10.329,0.141550665,0.253,27.235,53.1,5.39
+137,Two-way with Secondary beam,Office,Edge Panel,6.8,6,9.3795,0.088943625,0.23,17.113,38.9,4.09
+138,Two-way,Office,Corner Panel,6,4.1,5.4943125,0.091461863,0.223,29.186,32.06,3.2
+139,Two-way,Office,Internal Panel,6,4.1,4.7895,0.053516908,0.195,17.078,21.77,2.25
+140,Two-way,Office,Internal Panel,6,5.2,6.25785,0.074653788,0.201,18.783,29.56,3.04
+141,Two-way,Office,Edge Panel,5.2,4.9,5.4920625,0.0767286,0.216,23.639,28.58,2.9
+142,One-way with Secondary beam,Office,Edge Panel,6.8,4.9,6.989125,0.116366641,0.21,27.415,40.78,4.07
+143,One-way with Secondary beam,Office,Internal Panel,6.8,4.4,6.730375,0.103175116,0.225,27.07,37.18,3.73
+144,Two-way,Office,Corner Panel,2.7,2.7,1.64025,0.018799397,0.225,20.244,7.57,0.78
+145,Two-way,Office,Edge Panel,3,2.7,1.670625,0.01998567,0.206,19.369,7.9,0.81
+146,Two-way with Secondary beam,Office,Internal Panel,6,3,3.695625,0.048122071,0.205,20.987,18.41,1.88
+147,One-way,Office,Edge Panel,6,2.4,3.02175,0.042058648,0.21,22.928,15.69,1.59
+148,One-way,Office,Internal Panel,6,2.7,2.975625,0.038051217,0.184,18.438,14.66,1.5
+149,Two-way,Office,Edge Panel,4.5,2.7,2.4553125,0.032378802,0.202,20.92,12.32,1.26
+150,Two-way with Secondary beam,Office,Internal Panel,6,4.5,5.0878125,0.070460013,0.188,20.486,26.33,2.67
+151,Two-way,Office,Corner Panel,3,2.4,1.762875,0.024304749,0.245,26.499,9.1,0.92
+152,One-way,Office,Internal Panel,9,3,5.70375,0.10019743,0.211,29.131,34.51,3.43
+153,One-way,Office,Internal Panel,7.5,3,4.884375,0.064044084,0.217,22.344,24.43,2.49
+154,Two-way,Office,Internal Panel,4.5,3,2.514375,0.031246873,0.186,18.169,12.17,1.25
+155,Two-way,Office,Internal Panel,3,2.7,1.5525,0.022165339,0.192,21.481,8.19,0.83
+1,One-way with Secondary beam,Residential,Corner Panel,10.425,8.725,31.466225,0.51926825,0.346,44.815,182.51,18.21
+2,Two-way,Residential,Corner Panel,7.963,6.643,17.92355225,0.210457522,0.339,31.232,83.87,8.63
+3,One-way with Secondary beam,Common space,Internal Panel,10.6,8.95,28.2968,0.533204153,0.298,44.12,179.73,17.73
+4,One-way with Secondary beam,Common space,Internal Panel,8.95,8.7,25.20285,0.570245396,0.324,57.49,182.53,17.74
+5,One-way with Secondary beam,Common space,Internal Panel,11.6,8.7,40.933,0.551056243,0.406,42.864,208.12,21.15
+6,One-way with Secondary beam,Office,Internal Panel,7.8,7.4,11.545,0.21566879,0.2,29.331,72.89,7.2
+8,Two-way with secondary beam,Office,Edge Panel,7.75,6.7,12.4035,0.169782166,0.239,25.668,63.72,6.47
+9,Two-way with secondary beam,Office,Corner Panel,7.75,5.61,10.749375,0.185766242,0.247,33.541,64.32,6.39
+10,Two-way,Office,Corner Panel,7.125,5.41,11.17145875,0.053735372,0.29,10.943,34.04,3.8
+11,Two-way,Office,Edge Panel,5.61,4.52,7.45758,0.040195893,0.294,12.444,23.74,2.63
+12,Two-way,Office,Corner Panel,7.6,5.1,8.347875,0.109165714,0.215,22.109,41.69,4.25
+13,Two-way,Office,Edge Panel,6.485,5.2,7.026134375,0.100223721,0.208,23.331,37.05,3.75
+14,Two-way,Office,Corner Panel,6.485,3.825,5.3460375,0.088571482,0.216,28.03,31.09,3.1
+15,Two-way with Secondary beam,Common space,Corner Panel,9.465,5.65,13.67348,0.208019791,0.256,30.536,75.16,7.55
+16,Two-way with Secondary beam,Common space,Edge Panel,9.465,4.29,10.506465,0.143959046,0.259,27.831,54.01,5.48
+17,Two-way,Common space,Edge Panel,5.65,5.015,6.669555,0.087278822,0.235,24.18,33.32,3.4
+18,Two-way with Secondary beam,Common space,Edge Panel,9.465,4.705,11.1936025,0.191455682,0.251,33.749,66.51,6.62
+19,One-way with Secondary beam,Common space,Corner Panel,9.465,8.915,18.9824275,0.296665007,0.225,27.599,106.2,10.65
+20,Two-way with Secondary beam,Common space,Edge Panel,5.94,5.305,5.7959625,0.09217135,0.184,22.961,32.8,3.28
+21,One-way with Secondary beam,Common space,Corner Panel,8.915,7.155,14.6122225,0.190015185,0.229,23.384,72.72,7.41
+22,One-way,Common space,Edge Panel,7.6,3.6,8.7808,0.098673635,0.321,28.311,40.04,4.14
+23,One-way with Secondary beam,Common space,Edge Panel,8.6,7.6,15.47076,0.187471542,0.237,22.516,73.76,7.57
+24,Two-way with Secondary beam,Common space,Edge Panel,7.6,7.5,14.025775,0.158299829,0.246,21.801,64.12,6.63
+25,One-way with Secondary beam,Common space,Internal Panel,8.6,7.6,14.3208,0.145173177,0.219,17.436,61.6,6.43
+26,One-way,Common space,Edge Panel,7.6,3.6,8.5224,0.09349086,0.311,26.824,38.33,3.97
+27,Two-way with Secondary beam,Common space,Internal Panel,7.6,7.5,12.2318,0.137521932,0.215,18.939,55.8,5.77
+28,One-way,Common space,Corner Panel,7.6,3.6,8.8772,0.10155003,0.324,29.136,40.91,4.22
+29,Two-way with Secondary beam,Office,Edge Panel,8,8,13.928,0.172052831,0.218,21.103,67.18,6.88
+30,Two-way with Secondary beam,Office,Edge Panel,8,8,13.928,0.16530943,0.218,20.276,65.59,6.74
+31,Two-way with Secondary beam,Office,Internal Panel,8,8,13.928,0.156810882,0.218,19.234,63.59,6.57
+32,Two-way with Secondary beam,Office,Edge Panel,8,8,18.178,0.29681642,0.284,36.406,104.69,10.46
+33,Two-way with Secondary beam,Office,Edge Panel,8,8,15.832,0.217982743,0.247,26.737,81.64,8.28
+34,Two-way with Secondary beam,Office,Corner Panel,8,8,15.559,0.165681967,0.243,20.322,68.8,7.15
+35,Two-way with Secondary beam,Office,Corner Panel,8,8,15.263,0.223793852,0.238,27.45,81.92,8.26
+36,Two-way with Secondary beam,Office,Corner Panel,9.6,8,20.2,0.308636021,0.263,31.547,111.35,11.19
+37,Two-way with Secondary beam,Common space,Internal Panel,8,8,18.32,0.257861648,0.286,31.628,95.79,9.7
+38,Two-way with Secondary beam,Common space,Internal Panel,8,8,17.12,0.224337275,0.268,27.516,85.6,8.72
+41,Two-way with Secondary beam,Common space,Edge Panel,8,8,17.12,0.181428426,0.268,22.253,75.49,7.85
+42,Two-way with Secondary beam,Common space,Corner Panel,8,8,18.32,0.195000255,0.286,23.918,80.99,8.41
+43,Two-way with Secondary beam,Common space,Corner Panel,8,8,18.32,0.25437575,0.286,31.201,94.97,9.63
+44,One-way with Secondary beam,Common space,Edge Panel,9.6,6.9,19.374875,0.349058201,0.292,41.366,119.29,11.81
+45,Two-way,Residential,Edge Panel,4.216,3.505,2.773047617,0.032271681,0.188,17.144,12.91,1.33
+46,Two-way,Residential,Internal Panel,6.147,4.216,4.320886483,0.047636727,0.167,14.429,19.49,2.02
+47,Two-way,Residential,Internal Panel,4.216,3.607,2.338986926,0.023916513,0.154,12.346,10.11,1.05
+48,Two-way,Residential,Edge Panel,4.216,4.14,2.787304575,0.029593233,0.16,13.309,12.3,1.28
+49,Two-way,Residential,Edge Panel,2.54,1.93,0.951892977,0.01003584,0.194,16.071,4.19,0.44
+50,Two-way,Residential,Edge Panel,2.768,2.057,0.967030732,0.014916511,0.17,20.565,5.36,0.54
+51,Two-way,Residential,Edge Panel,3.251,3.048,1.825820633,0.044840659,0.184,35.523,14.05,1.36
+52,Two-way,Residential,Edge Panel,4.724,3.429,2.21978681,0.019888308,0.137,9.638,8.93,0.94
+53,Two-way,Residential,Internal Panel,4.191,3.581,2.812797326,0.033591594,0.187,17.57,13.29,1.37
+54,Two-way,Residential,Edge Panel,3.658,3.581,2.407008277,0.022481693,0.184,13.473,9.9,1.04
+55,One-way,Residential,Internal Panel,6.325,3.658,4.902089254,0.051194851,0.212,17.37,21.44,2.23
+60,Two-way,Office,Corner Panel,6.629,5.092,7.588771993,0.089801971,0.225,20.884,35.67,3.67
+61,One-way with Secondary beam,Office,Edge Panel,6.629,6.261,8.520551465,0.11453943,0.205,21.664,43.28,4.4
+62,Two-way,Office,Corner Panel,6.87,6.324,11.14176697,0.110324981,0.256,19.934,47.31,4.95
+63,Two-way,Office,Edge Panel,6.87,3.886,5.027535268,0.057255352,0.188,16.836,23.11,2.39
+64,Two-way with Secondary beam,Residential,Corner Panel,4.483,4.267,3.201449585,0.041928089,0.167,17.206,16,1.63
+65,One-way with Secondary beam,Residential,Internal Panel,4.267,2.057,1.479911122,0.042976295,0.169,38.436,12.95,1.24
+66,Two-way with Secondary beam,Residential,Corner Panel,4.267,4.038,3.208696409,0.038486069,0.186,17.534,15.2,1.56
+67,Two-way,Residential,Internal Panel,4.326,3.81,2.711188457,0.031326492,0.164,14.92,12.57,1.3
+68,Two-way with Secondary beam,Residential,Corner Panel,4.394,4.326,3.206595535,0.04249604,0.169,17.55,16.15,1.64
+69,One-way with Secondary beam,Common space,Edge Panel,8.242,7.035,15.19947751,0.293224077,0.262,39.698,98.15,9.66
+70,One-way with Secondary beam,Common space,Internal Panel,8.242,4.559,8.325762985,0.17390069,0.222,36.33,56.89,5.56
+71,Two-way with Secondary beam,Common space,Corner Panel,8.216,4.343,10.41760955,0.171978992,0.292,37.835,60.44,6.03
+72,Two-way with Secondary beam,Common space,Corner Panel,4.559,4.343,6.667883781,0.127216374,0.337,50.437,42.72,4.21
+73,Two-way,Office,Edge Panel,7.65,4.9,9.261,0.223533232,0.247,46.812,70.37,6.8
+74,Two-way,Office,Internal Panel,8.425,5.225,9.9835,0.215864487,0.227,38.494,69.94,6.82
+75,One-way with Secondary beam,Office,Internal Panel,8.425,7.65,12.91165,0.25344831,0.2,30.869,84.4,8.3
+76,Two-way,Office,Edge Panel,7.65,4.3,8.74275,0.212864416,0.266,50.798,66.86,6.46
+77,Two-way,Office,Corner Panel,5.225,4.3,6.155625,0.122874958,0.274,42.932,40.72,4
+78,Two-way,Office,Corner Panel,5.445,4.9,6.712375,0.128584003,0.252,37.832,43.13,4.25
+79,Two-way with Secondary beam,Office,Internal Panel,8.425,8.225,14.47335,0.244768502,0.209,27.728,85.34,8.5
+80,Two-way,Office,Edge Panel,8.225,4.3,8.06990625,0.133215259,0.228,29.568,46.82,4.67
+81,Two-way,Office,Internal Panel,6.4,5.57,7.7402,0.097637135,0.217,21.501,37.81,3.87
+82,Two-way,Office,Edge Panel,6.325,5.57,8.1442625,0.119096584,0.231,26.537,43.64,4.4
+83,Two-way,Office,Corner Panel,6.325,5.455,8.523534375,0.120732818,0.247,27.469,44.75,4.53
+84,Two-way,Office,Edge Panel,7.65,4.9,11.6942,0.268067219,0.312,56.138,85.51,8.3
+85,Two-way,Office,Edge Panel,6.4,5.455,9.2167375,0.123154384,0.264,27.691,46.64,4.74
+86,One-way with Secondary beam,Common space,Internal Panel,10.4,6,18.486,0.228305715,0.296,28.721,89.15,9.13
+87,One-way with Secondary beam,Common space,Internal Panel,11.75,8.9,31.526415,0.477106545,0.301,35.814,172.7,17.37
+88,One-way with Secondary beam,Common space,Internal Panel,8.9,6,16.8495,0.250606354,0.316,36.84,91.27,9.19
+89,One-way with Secondary beam,Common space,Edge Panel,11.75,11.75,39.52179,0.577442527,0.286,32.832,211.63,21.35
+90,One-way with Secondary beam,Common space,Edge Panel,11.75,6,20.4315,0.268125841,0.29,29.855,102.25,10.42
+91,One-way with Secondary beam,Common space,Internal Panel,10.285,8.45,25.820565,0.347545407,0.297,31.392,131.27,13.34
+92,One-way with Secondary beam,Common space,Internal Panel,8.45,7.585,17.4334125,0.235901699,0.272,28.893,88.92,9.03
+93,Two-way with Secondary beam,Common space,Corner Panel,9.725,9.2,26.988,0.347019671,0.302,30.447,133.38,13.61
+95,One-way with Secondary beam,Common space,Internal Panel,7.65,4.9,28.6927375,0.612005374,0.765,128.164,199.05,19.43
+96,One-way with Secondary beam,Common space,Edge Panel,8.425,5.225,46.6732,0.92059839,1.06,164.166,306.13,30.08
+97,One-way with Secondary beam,Common space,Edge Panel,8.425,7.65,30.0986,0.529414428,0.467,64.481,182.29,18.09
+98,One-way with Secondary beam,Common space,Edge Panel,7.65,4.3,32.9254,0.725632651,1.001,173.164,233.91,22.78
+99,One-way with Secondary beam,Common space,Edge Panel,5.225,4.3,35.15071875,0.654243695,1.565,228.589,221.35,21.86
+100,One-way with Secondary beam,Common space,Internal Panel,5.445,4.9,29.3778,0.53119313,1.101,156.289,181.33,17.95
+201,One-way with Secondary beam,Common space,Edge Panel,8.425,8.225,18.993375,0.331314058,0.274,37.532,114.38,11.36
+202,One-way with Secondary beam,Common space,Edge Panel,8.225,4.3,20.8060375,0.406792196,0.588,90.29,135.62,13.34
+203,One-way with Secondary beam,Common space,Edge Panel,6.4,5.57,20.8819,0.525038782,0.586,115.618,163.61,15.77
+204,One-way with Secondary beam,Common space,Corner Panel,6.325,5.57,27.0995,0.539763244,0.769,120.27,178.98,17.57
+210,One-way with Secondary beam,Common space,Edge Panel,10.285,7.78,28.36095,0.480244385,0.354,47.114,167.38,16.67
+211,One-way with Secondary beam,Common space,Edge Panel,7.78,7.585,22.61775,0.253896296,0.383,33.775,103.08,10.66
+212,One-way with Secondary beam,Common space,Edge Panel,9.78,7.585,24.11385,0.27029988,0.325,28.604,109.81,11.35
+213,One-way with Secondary beam,Common space,Corner Panel,8.45,7.585,18.93345,0.299239884,0.295,36.65,106.71,10.69
+214,One-way with Secondary beam,Common space,Edge Panel,11.9,9.2,40.02025,0.685394555,0.366,49.145,238.01,23.67
+215,Two-way,Office,Corner Panel,3,3,1.785375,0.027639177,0.198,24.108,9.93,1
+216,Two-way,Office,Edge Panel,4.5,3,2.376,0.031346744,0.176,18.228,11.93,1.21
+217,Two-way,Office,Corner Panel,3,2,1.17,0.01833779,0.195,23.992,6.56,0.66
+218,Two-way,Office,Edge Panel,3,3,1.64925,0.023229434,0.183,20.261,8.63,0.87
+219,Two-way,Office,Edge Panel,3,2,1.044,0.017599598,0.174,23.026,6.14,0.61
+220,Two-way,Office,Edge Panel,3,3,1.49625,0.02112302,0.166,18.424,7.84,0.79
+221,One-way,Office,Edge Panel,9.5,3,5.43925,0.077203752,0.191,21.265,28.59,2.89
+222,Two-way,Office,Corner Panel,6,3,3.38625,0.051343592,0.188,22.392,18.57,1.87
+223,Two-way,Office,Corner Panel,3,3,1.8,0.026087939,0.2,22.754,9.59,0.97
