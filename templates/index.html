@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartSlab Predictions</title>
+
     <script>
         // Function to toggle the visibility of the Floor System Type dropdown
         function toggleFloorSystem() {
             const modelType = document.getElementById("model-type").value;
             const floorSystemDiv = document.getElementById("floor-system-div");
 
-            if (modelType === "Beam-Slab") {
-                floorSystemDiv.style.display = "block";
-            } else {
-                floorSystemDiv.style.display = "none";
-            }
+            floorSystemDiv.style.display = modelType === "Beam-Slab" ? "block" : "none";
         }
+
+        // Run toggleFloorSystem on page load to set correct visibility
+        window.onload = function() {
+            toggleFloorSystem();
+        };
     </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,11 +36,14 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 500px;
+            margin: auto;
         }
         label, select, input {
             display: block;
             margin-bottom: 10px;
             width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
         }
         button {
             background: #007BFF;
@@ -51,62 +57,57 @@
         button:hover {
             background: #0056b3;
         }
-        .data {
-            margin-top: 20px;
+        .predictions {
             background: white;
-            padding: 10px;
+            padding: 20px;
+            margin-top: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow-x: auto;
+            max-width: 500px;
+            margin: auto;
         }
     </style>
 </head>
 <body>
-    <h1>SmartSlab: ANN-Driven Predictions for Reinforced Concrete Slab Systems</h1>
+    <h1 style="text-align:center;">SmartSlab: ANN-Driven Predictions for Reinforced Concrete Slab Systems</h1>
 
     <!-- Form to submit input data -->
     <form method="post">
         <label for="model-type">Structural System:</label>
         <select name="model-type" id="model-type" required onchange="toggleFloorSystem()">
-            <option value="Flat-Slab">Flat-Slab</option>
-            <option value="Beam-Slab">Beam-Slab</option>
+            <option value="Flat-Slab" {% if request.form['model-type'] == 'Flat-Slab' %}selected{% endif %}>Flat-Slab</option>
+            <option value="Beam-Slab" {% if request.form['model-type'] == 'Beam-Slab' %}selected{% endif %}>Beam-Slab</option>
         </select>
-        <br>
 
         <label for="span-length-1">Longest Grid Length (m):</label>
-        <input type="number" id="span-length-1" name="span-length-1" step="0.0001" value="3.0" required>
-        <br>
+        <input type="number" id="span-length-1" name="span-length-1" step="0.0001" value="{{ request.form['span-length-1'] or '3.0' }}" required>
 
         <label for="span-length-2">Shortest Grid Length (m):</label>
-        <input type="number" id="span-length-2" name="span-length-2" step="0.0001" value="3.0" required>
-        <br>
+        <input type="number" id="span-length-2" name="span-length-2" step="0.0001" value="{{ request.form['span-length-2'] or '3.0' }}" required>
 
         <label for="usage">Floor Usage:</label>
         <select name="usage" id="usage" required>
-            <option value="Residential">Residential</option>
-            <option value="Common space">Common space</option>
-            <option value="Office">Office</option>
+            <option value="Residential" {% if request.form['usage'] == 'Residential' %}selected{% endif %}>Residential</option>
+            <option value="Common space" {% if request.form['usage'] == 'Common space' %}selected{% endif %}>Common space</option>
+            <option value="Office" {% if request.form['usage'] == 'Office' %}selected{% endif %}>Office</option>
         </select>
-        <br>
 
         <label for="boundary-condition">Boundary Condition:</label>
         <select name="boundary-condition" id="boundary-condition" required>
-            <option value="Internal Panel">Internal Panel</option>
-            <option value="Edge Panel">Edge Panel</option>
-            <option value="Corner Panel">Corner Panel</option>
+            <option value="Internal Panel" {% if request.form['boundary-condition'] == 'Internal Panel' %}selected{% endif %}>Internal Panel</option>
+            <option value="Edge Panel" {% if request.form['boundary-condition'] == 'Edge Panel' %}selected{% endif %}>Edge Panel</option>
+            <option value="Corner Panel" {% if request.form['boundary-condition'] == 'Corner Panel' %}selected{% endif %}>Corner Panel</option>
         </select>
-        <br>
 
         <!-- Floor System Type section, hidden by default for non-Beam-Slab -->
         <div id="floor-system-div" style="display: none;">
             <label for="floor-system">Floor System Type:</label>
             <select name="floor-system" id="floor-system">
-                <option value="One-way">One-way</option>
-                <option value="Two-way">Two-way</option>
-                <option value="One-way with Secondary beam">One-way with Secondary beam</option>
-                <option value="Two-way with Secondary beam">Two-way with Secondary beam</option>
+                <option value="One-way" {% if request.form['floor-system'] == 'One-way' %}selected{% endif %}>One-way</option>
+                <option value="Two-way" {% if request.form['floor-system'] == 'Two-way' %}selected{% endif %}>Two-way</option>
+                <option value="One-way with Secondary beam" {% if request.form['floor-system'] == 'One-way with Secondary beam' %}selected{% endif %}>One-way with Secondary beam</option>
+                <option value="Two-way with Secondary beam" {% if request.form['floor-system'] == 'Two-way with Secondary beam' %}selected{% endif %}>Two-way with Secondary beam</option>
             </select>
-            <br>
         </div>
 
         <button type="submit">Predict Quantities</button>
@@ -114,28 +115,14 @@
 
     <!-- Predictions display -->
     {% if predictions %}
-        <h3>Predictions:</h3>
-        <ul>
-            <li>Volume of Concrete (m³): {{ predictions['Volume of Concrete'] }}</li>
-            <li>Volume of Reinforcement (m³): {{ predictions['Volume of Reinforcement'] }}</li>
-            <li>Embodied Carbon Energy (GJ): {{ predictions['Embodied Carbon Energy'] }}</li>
-            <li>Emissions CO2 GWP (kg CO2 eq.): {{ predictions['Emissions CO2 GWP'] }}</li>
-        </ul>
-    {% endif %}
-
-    <!-- Beam Slab Database -->
-    {% if df_beam_slab %}
-        <h3>Beam Slab Database:</h3>
-        <div class="data">
-            {{ df_beam_slab | safe }}
-        </div>
-    {% endif %}
-
-    <!-- Flat Slab Database -->
-    {% if df_flat_slab %}
-        <h3>Flat Slab Database:</h3>
-        <div class="data">
-            {{ df_flat_slab | safe }}
+        <div class="predictions">
+            <h3>Predictions:</h3>
+            <ul>
+                <li><strong>Volume of Concrete (m³):</strong> {{ predictions['Volume of Concrete'] }}</li>
+                <li><strong>Volume of Reinforcement (m³):</strong> {{ predictions['Volume of Reinforcement'] }}</li>
+                <li><strong>Embodied Carbon Energy (GJ):</strong> {{ predictions['Embodied Carbon Energy'] }}</li>
+                <li><strong>Emissions CO2 GWP (kg CO2 eq.):</strong> {{ predictions['Emissions CO2 GWP'] }}</li>
+            </ul>
         </div>
     {% endif %}
 </body>
