@@ -8,6 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 # Suppress TensorFlow and oneDNN warnings
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
 
 # Initialize Flask app
 app = Flask(__name__)
